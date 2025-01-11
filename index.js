@@ -11,7 +11,7 @@ app.use(express.json());
 
 app.use(cors({
     origin: "https://studentgrade-frontend.vercel.app",
-    credentials: true,
+    // credentials: true,
 
 }));
 
